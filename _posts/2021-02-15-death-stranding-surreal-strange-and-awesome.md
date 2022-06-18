@@ -2,7 +2,7 @@
 title: "Death Stranding - Surreal, Strange and Awesome"
 date: "2021-02-15"
 category: blog
-image: "/images/2021/death-stranding-trailers-release-date-gameplay-news.jpg"+
+image: "/images/2021/death-stranding-trailers-release-date-gameplay-news.jpg"
 layout: post
 ---
 
