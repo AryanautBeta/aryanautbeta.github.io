@@ -1,6 +1,6 @@
 ---
 title: "3D Printed Robot Creature"
-category: artwork
+category: 3d
 date: "2020-12-07"
 image: "/images/2020/12/robot3D.png"
 layout: post

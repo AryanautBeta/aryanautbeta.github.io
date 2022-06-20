@@ -1,7 +1,7 @@
 ---
 title: "My first 3D print!"
 date: "2020-07-26"
-category: blog
+category: 3d
 image: "/images/2020/07/img_2939.jpg"
 ---
 
