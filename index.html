@@ -16,38 +16,20 @@ sitemap:
 -->
 <html>
 <style>
-* {
-   box-sizing: border-box;
+.grid{
+  display:grid;
+  grid-template-columns: 100px 1fr 1fr 1fr;
+  width:400px;
+  overflow-x:scroll;
 }
-h1 {
-   text-align: center;
+.col{
+  width:200px;
 }
-.outer-grid {
-   display: flex;
-   flex-wrap: wrap;
-   padding: 0 4px;
-}
-.inner-grid {
-   flex: 25%;
-   max-width: 25%;
-   padding: 0 4px;
-}
-.inner-grid img {
-   margin-top: 8px;
-   width: 100%;
-   padding: 10px;
-}
-@media screen and (max-width: 800px) {
-   .inner-grid {
-      flex: 50%;
-      max-width: 50%;
-   }
-}
-@media screen and (max-width: 600px) {
-   .inner-grid {
-      flex: 100%;
-      max-width: 100%;
-   }
+.left{
+  position:sticky;
+  left:0;
+  z-index:999;
+  background:lightgray;
 }
 </style>
 
@@ -91,14 +73,20 @@ h1 {
 								</header>
 							</article>
 
-							<div class="outer-grid">
-								<div class="inner-grid">
+							<div class="grid">
+								<div class="col">
 									<img src="/images/astronomy.png"/>
 									<p>Astronomy</p>
+								</div>
+								<div class="col">
 									<img src="/images/stuff-i-wrote.png"/>
 									<p>Writing</p>
+								</div>
+								<div class="col">
 									<img src="/images/artwork-logo.png"/>
 									<p>Artwork</p>
+								</div>
+								<div class="col">
 									<img src="/images/embedded-logo.png"/>
 									<p>Embedded Systems</p>
 								</div>
