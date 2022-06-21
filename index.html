@@ -16,18 +16,38 @@ sitemap:
 -->
 <html>
 <style>
-.grid{
-  display:grid;
-  grid-template-columns: 100px 1fr 1fr 1fr;
+* {
+   box-sizing: border-box;
 }
-.col{
-  width:200px;
+h1 {
+   text-align: center;
 }
-.left{
-  position:sticky;
-  left:0;
-  z-index:999;
-  background:lightgray;
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+   padding: 10px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
 }
 </style>
 
@@ -71,23 +91,14 @@ sitemap:
 								</header>
 							</article>
 
-							<div class="grid">
-								<div class="col">
+							<div class="outer-grid">
+								<div class="inner-grid">
 									<img src="/images/astronomy.png"/>
-									<p>Astronomy</p>
-								</div>
-								<div class="col">
-									<img src="/images/stuff-i-wrote.png"/>
-									<p>Writing</p>
-								</div>
-								<div class="col">
 									<img src="/images/artwork-logo.png"/>
-									<p>Artwork</p>
-								</div>
-								<div class="col">
+									<img src="/images/stuff-i-wrote.png"/>
 									<img src="/images/embedded-logo.png"/>
-									<p>Embedded Systems</p>
 								</div>
+								
 							</div>
 
 						<!-- Posts -->
