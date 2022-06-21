@@ -15,6 +15,42 @@ sitemap:
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+<style>
+* {
+   box-sizing: border-box;
+}
+h1 {
+   text-align: center;
+}
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+}
+.inner-grid {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 100%;
+   padding: 10px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+</style>
+
 	<head>
     {% include head.html %}
 
@@ -55,7 +91,21 @@ sitemap:
 								</header>
 							</article>
 
-							
+							<div class="outer-grid">
+								<div class="inner-grid">
+									<img src="/images/astronomy.png"/>
+									<img src="/images/stuff-i-wrote.png"/>
+									<img src="/images/artwork-logo.png"/>
+									<img src="/images/embedded-logo.png"/>
+								</div>
+
+								<div class="inner-grid">
+									<p>Astronomy</p>
+									<p>Writing</p>
+									<p>Artwork</p>
+									<p>Embedded Systems</p> 
+								</div>
+							</div>
 
 						<!-- Posts -->
 							<section class="posts">
