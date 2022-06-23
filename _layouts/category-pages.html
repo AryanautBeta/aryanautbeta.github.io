@@ -39,7 +39,7 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-                            {% if post.cateogry == page.category %}
+                            {% if post.category == page.category %}
                                 <article>
                                     <header>
                                         <span class="date">{{ post.date | date_to_string }}</span>
