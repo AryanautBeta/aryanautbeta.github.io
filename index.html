@@ -123,7 +123,7 @@ h1 {
 							<section class="posts">
                 {% for post in site.posts limit:4 %}
                 {% assign mod3 = forloop.index | modulo: 3 %}
-					{% if post.category == "category-1" %}
+					
   								<article>
   									<header>
   										<span class="date">{{ post.date | date_to_string }}</span>
@@ -135,7 +135,7 @@ h1 {
   										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
   									</ul>
   								</article>
-					{% endif %}
+					
                 {% endfor %}
 
 							</section>
