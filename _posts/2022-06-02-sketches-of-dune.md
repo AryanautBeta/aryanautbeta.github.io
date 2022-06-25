@@ -20,4 +20,6 @@ Here's Baron Vladimir Harkonnen.
 <img src = '/images/2022/mydesert.png' alt="The Baron">
 </p>
 
+I've finished reading upto God-Emperor of Dune and I think the seires is fantastic. I highly recommend it if you're a fan of sci-fi. 
+
 That's all I have for now. Live Long and Prosper!
