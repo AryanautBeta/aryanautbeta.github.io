@@ -11,13 +11,13 @@ Recently, I've been reading the entire Dune saga because of how much I liked Dun
 Here's Duke Leto Atreides.
 
 <p align="center">
-<img src = '/images/2022/dukeleto_moved_sign.png' alt="Duke Leto">
+<span class="image fit"><img src = '/images/2022/dukeleto_moved_sign.png' alt="Duke Leto"></span>
 </p>
 
 Here's Baron Vladimir Harkonnen.
 
 <p align="center">
-<img src = '/images/2022/mydesert.png' alt="The Baron">
+<span class="image fit"><img src = '/images/2022/mydesert.png' alt="The Baron"></span>
 </p>
 
 I've finished reading upto God-Emperor of Dune and I think the seires is fantastic. I highly recommend it if you're a fan of sci-fi. 
