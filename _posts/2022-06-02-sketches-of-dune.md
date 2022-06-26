@@ -11,7 +11,7 @@ Recently, I've been reading the entire Dune saga because of how much I liked Dun
 Here's Duke Leto Atreides.
 
 <p align="center">
-<span class="image fit"><img src = '/images/2022/dukeleto_moved_sign.png' alt="Duke Leto"></span>
+<span class="image fit"><img src = '/images/2022/dukeleto_moved _sign.png' alt="Duke Leto"></span>
 </p>
 
 Here's Baron Vladimir Harkonnen.
