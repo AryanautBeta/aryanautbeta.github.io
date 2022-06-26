@@ -22,7 +22,7 @@ I made a 3D model of the ship *Rocinante* from The Expanse for my dad's birthday
 </p>
 
 <p align="center">
-<span class="image fit"><img src="/images/2022/roci-modelled.jpg" alt="Render in Blender"></span>
+<span class="image fit"><img src="/images/2022/roci-modelled-top.jpg" alt="Render in Blender"></span>
 </p>
 
 Do watch and/or read The Expanse. I really like that seires. 
